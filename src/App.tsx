@@ -4,7 +4,10 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <Home img='rebeca'/>
+    <div className='App'>
+       <Home  img='rebeca'/>
+    </div>
+   
   )
 }
 
