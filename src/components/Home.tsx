@@ -53,7 +53,7 @@ const Home: React.FC<HomeProps> = (props) => {
 
   return (
     <form className="container">
-      <h1>Upload your image</h1>
+      <h1 className="upload-title">Upload your image</h1>
       <h6 className="file-should">File should Jpej, Png...</h6>
       
       <div className="drag-drop" {...getRootProps()}  >

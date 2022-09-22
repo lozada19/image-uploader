@@ -28,14 +28,13 @@ form {
   width: 450px;
 }
 
-.file-should {
-  color: #777777;
+.upload-title {
+  line-height: 0;
 }
 
-.file-upload {
-  display: inline-block;
-  padding: 7px 15px;
-  cursor: pointer;
+.file-should {
+  color: #777777;
+  line-height: 0;
 }
 
 input[type='file'] { font-size: 0; }
