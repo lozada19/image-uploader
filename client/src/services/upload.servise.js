@@ -1,7 +1,7 @@
 import service from "./config.services"
 
-const uploadService = (img) => {
-    return service.post("/upload", img)
+const uploadService = (image) => {
+    return service.post("/upload", image)
 }
 
 export {

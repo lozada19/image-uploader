@@ -5,7 +5,7 @@ import { useDropzone, FileRejection, DropEvent } from "react-dropzone";
 import logo from "../image/image_drag.svg";
 
 export type HomeProps = {
-  img: string;
+  image: string;
 };
 
 const Home: React.FC<HomeProps> = (props) => {
@@ -35,7 +35,7 @@ const Home: React.FC<HomeProps> = (props) => {
 
     if (files != null) {
       console.log(files[0]);
-      form.append("img", files[0]);
+      form.append("image", files[0]);
     }
 
     try {
